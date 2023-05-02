@@ -1,0 +1,7 @@
+.pytest_cache/
+__pycache__
+Archive/
+ip_addr_challenge.egg-info/
+/src/static/images
+.python-version
+/src/build/
