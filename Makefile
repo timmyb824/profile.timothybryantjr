@@ -2,13 +2,13 @@ pip-compile:
 	pip install pip-tools pip-autoremove
 
 compile-deps:
-	pip-compile -o requirements.txt pyproject.toml
+	pip-compile -o src/requirements.txt pyproject.toml
 
 compile-dev-deps:
 	pip-compile --extra dev -o requirements-dev.txt pyproject.toml
 
 install-deps:
-	pip install -r requirements.txt
+	pip install -r src/requirements.txt
 
 install-dev-deps:
 	pip install -r requirements-dev.txt
