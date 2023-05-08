@@ -5,3 +5,5 @@ ip_addr_challenge.egg-info/
 /src/static/images
 .python-version
 /src/build/
+# Local Netlify folder
+.netlify
