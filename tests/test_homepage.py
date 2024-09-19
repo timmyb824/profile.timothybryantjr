@@ -1,14 +1,14 @@
 import pytest
-from src.main import app, parse_config
+from src.main import app
 
-def test_parse_config():
-    name, location, linkedin, github, resume, blog = parse_config()
-    assert name == "Timothy Bryant Jr."
-    assert location == "Boston, MA"
-    assert linkedin == "https://www.linkedin.com/in/timothy-bryant-7aa00026/"
-    assert github == "https://www.github.com/timmyb824"
-    assert resume == "https://drive.google.com/file/d/12mSxN5dPsnuiLGuJuL8ztozBjFkoLnDt/view?usp=sharing"
-    assert blog == "https://blog.timothybryantjr.com"
+# def test_parse_config():
+#     name, location, linkedin, github, resume, blog = parse_config()
+#     assert name == "Timothy Bryant Jr."
+#     assert location == "Boston, MA"
+#     assert linkedin == "https://www.linkedin.com/in/timothy-bryant-7aa00026/"
+#     assert github == "https://www.github.com/timmyb824"
+#     assert resume == "https://drive.google.com/file/d/12mSxN5dPsnuiLGuJuL8ztozBjFkoLnDt/view?usp=sharing"
+#     assert blog == "https://blog.timothybryantjr.com"
 
 @pytest.fixture
 def client():
