@@ -1,6 +1,7 @@
-from flask import Flask, render_template
-from src.constants import ROOT_DIR
 import configparser
+from flask import Flask, render_template
+from constants import ROOT_DIR
+
 
 app = Flask(__name__)
 
