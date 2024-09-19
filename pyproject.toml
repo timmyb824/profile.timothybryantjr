@@ -9,6 +9,7 @@ dependencies = [
     "Frozen-Flask",
     ]
 
+
 [project.optional-dependencies]
 dev = ["pytest",
     "pytest-mock",
